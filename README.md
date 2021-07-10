@@ -44,6 +44,9 @@ Also, do not forget about HTML structure. If you use default config it should be
 </ul>
 ```
 
+![Screenshot_1](https://user-images.githubusercontent.com/5232966/125171926-47dc5000-e1d0-11eb-8d64-c6c84f6a1ba9.png)
+<i>Don't be aware of this design. You are free to fully customize it through CSS :)</i>
+
 
 <h2>Custom configuration</h2>
 
