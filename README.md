@@ -1,2 +1,4 @@
 # accordion_jquery
-Easily Configurable Accordion (Jquery)
+Easily Configurable Accordion Menu (Jquery)
+
+Customize this accordion menu using both Javascript and CSS.
