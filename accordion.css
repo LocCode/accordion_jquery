@@ -1,0 +1,65 @@
+/*
+
+[!!!] Feel free to delete all this code. [!!!]
+
+
+You may change display property in order
+to show all submenus by default
+*/
+.accordion-example .submenu ul{
+    display: none;
+}
+
+/* Styling for better impression */
+.accordion-example{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0 0 40px 0;
+}
+
+.accordion-example li{
+    list-style: none;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.accordion-example li:last-child{
+    margin-bottom: 0;
+}
+
+.accordion-example button{
+    background-color: #2196f3;
+    transition: background-color 0.2s ease-out;
+    padding: 5px 12px;
+    font-size: 15px;
+    border-radius: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-align: left;
+    border: 1px #1b7ece solid;
+}
+
+.accordion-example button:hover{
+    background-color: #1a89e2;
+}
+
+.open-all-accordion,
+.close-all-accordion{
+    background-color: #efefef;
+    transition: background-color 0.2s ease-out;
+    border: none;
+    font-size: 15px;
+    padding: 7px 12px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.open-all-accordion{
+    margin-right: 10px;
+}
+
+.open-all-accordion:hover,
+.close-all-accordion:hover{
+    background-color: #e3e2e2;
+}

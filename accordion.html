@@ -1,0 +1,53 @@
+<!--
+* Code written by LocCode (Malik Khodjaev)
+*
+* Feel free to use this awful code, it's is 100% free
+* for any commercial and non-commercial use
+*
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accordion v1.0</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="accordionMenu.js"></script>
+    <script type="text/javascript" src="accordion.js"></script>
+    <link rel="stylesheet" href="accordion.css">
+</head>
+<body>
+
+<!-- You may use both id or class for applying JS code -->
+
+<ul id="accordion-1" class="accordion-example">
+
+    <li>Item</li>
+    <li>Item</li>
+    <li>Item</li>
+    <li class="submenu">
+        <button class="poo">Submenu list</button>
+        <ul>
+            <li>Submenu Item</li>
+            <li>Submenu Item</li>
+            <li>Submenu Item</li>
+        </ul>
+    </li>
+    <li>Item</li>
+    <li class="submenu">
+        <button>Submenu list</button>
+        <ul>
+            <li>Submenu Item</li>
+            <li>Submenu Item</li>
+            <li>Submenu Item</li>
+        </ul>
+    </li>
+
+</ul>
+
+<button class="open-all-accordion">Open all</button>
+
+<button class="close-all-accordion">Close all</button>
+
+</body>
+</html>
